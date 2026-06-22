@@ -1,0 +1,14 @@
+# Data files - never commit real financial data
+data/
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac
+.DS_Store
+
+# VS Code
+.vscode/
