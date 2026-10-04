@@ -8,14 +8,11 @@ Reads transaction exports from PC Financial and Wealthsimple credit cards, norma
 
 ## Project Structure
 
-```
-finance-tracker/
-├── data/          # Input CSVs (gitignored - not committed)
-├── output/        # Cleaned output CSVs (gitignored - not committed)
-├── main.py        # Main pipeline
-├── transaction.py # Transaction class
-└── README.md
-```
+- data/ — input CSVs from each credit card export
+- output/ — generated cleaned CSV outputs
+- main.py — main processing pipeline
+- transaction.py — transaction model used throughout the script
+- README.md — project overview and usage instructions
 
 ## Input Files
 
