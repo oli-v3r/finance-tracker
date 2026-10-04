@@ -7,4 +7,3 @@ class Transaction:
 
     def __repr__(self):
         return f"Transaction({self.card}, {self.date}, {self.amount}, {self.description})"
-    
